@@ -1,3 +1,17 @@
+/**** Google Font **********/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/**** Global Variables **********/
+$primary-font: "DM Sans", sans-serif;
+$primary-white: #FFF;
+$primary-color: #43c3D1;
+$primary-black: #061123;
+$secondary-color:#0284FF;
+$tertiary-color:#2F4858;
+
+
+
+
 /**** Swiper Slider Main **********/
 <Swiper
   spaceBetween={0}
