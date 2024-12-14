@@ -9,8 +9,93 @@ $primary-black: #061123;
 $secondary-color:#0284FF;
 $tertiary-color:#2F4858;
 
+body{
+    font-family: $primary-font;
+    font-size: 1em;
+    color: $primary-black;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+h4{
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: $primary-black;
+    &::hover{
+        color: $primary-color;
+    }
+}
+
+.primary-text{
+    color: $primary-color ;
+}
+
+.secondary-text{
+    color: $secondary-color ;
+}
 
 
+ul{
+    padding-left: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.container{
+    max-width: 1540px;
+}
+
+.btn{
+    &.btn-size{
+        background-color: rgba($primary-black, 0.03);
+        border-color: rgba($primary-black, 0.05);
+        padding: 7px 15px;
+        &.active{
+            border-color:  rgba($primary-black, 0.20);;
+        }
+        &:hover{
+            border-color:  rgba($primary-black, 0.20);;
+            color: $primary-black;
+        }
+    }
+    &.btn-primary{
+        background-color: $primary-color;
+        border-color: $primary-color;
+        padding: 7px 25px;
+        &:hover{
+            background-color: $primary-black;
+            border-color: $primary-black;
+            color: $primary-white;
+        }
+    }
+
+    &.btn-secondary{
+        background-color: $primary-black;
+        border-color: $primary-black;
+        color: $primary-white;
+        padding: 7px 25px;
+        &:hover{
+            background-color: $primary-color;
+            border-color: $primary-color;
+            color: $primary-white;
+        }
+    }
+}
 
 /**** Swiper Slider Main **********/
 <Swiper
