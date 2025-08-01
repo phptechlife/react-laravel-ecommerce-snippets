@@ -1,3 +1,6 @@
+Backend: composer require stripe/stripe-php
+Frontend: npm i @stripe/react-stripe-js
+
 //**************************** Checkout form *******************************
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
